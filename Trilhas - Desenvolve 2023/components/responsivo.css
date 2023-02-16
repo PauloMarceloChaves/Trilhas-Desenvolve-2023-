@@ -1,0 +1,93 @@
+/* responsivo das resoluções 1326 e 886 */
+@media(max-width: 1326px) {
+    .container-cabeçalho {
+        width: 840px;
+    }
+
+    .cabeçalho-img {
+        padding-right: 121.72px;
+    }
+
+    .pesquisa {
+        width: 154.72px;
+    }
+
+    .pesquisa-input {
+        width: 110px;
+    }
+    
+    .conteudo {
+        max-width: 872px;
+    }
+
+    .conteudo-trilhas {
+        justify-content: center;
+    }
+
+    .container-rodapé {
+        width: 840px;
+    }
+    .container-logos {
+        padding-right: 78.88px;
+    }
+
+    .logo-boti {
+        padding-right: 16.5px;
+    }
+
+    .links {
+        gap: 20px;
+    }
+
+    .links-boti, .texto-grupo {
+        font-size: 14px;
+    }
+
+    .links-redes {
+        gap: 16px;
+    }
+}
+
+@media(max-width: 886px) {
+    .container-cabeçalho {
+        width: 400px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cabeçalho-img {
+        padding-right: 0;
+    }
+
+    .pesquisa {
+        width: 40px;
+    }
+
+    .pesquisa-input {
+        display: none;
+    }
+
+    .conteudo {
+        max-width: 432px;
+    }
+
+    .rodapé {
+        height: 250px;
+    }
+
+    .container-rodapé {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .container-logos {
+        padding-right: 0;
+    }
+
+    .logo-boti {
+        padding-right: 36.38px;
+    }
+}

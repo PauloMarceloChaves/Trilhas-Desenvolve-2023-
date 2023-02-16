@@ -1,0 +1,191 @@
+/* versão Desktop */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    width: 100%;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: #33475B;
+}
+
+.cabeçalho {
+    width: 100%;
+    margin: 0 auto;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 0 16px;
+}
+
+.container-cabeçalho {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cabeçalho-img {
+    padding-right: 151.72px;
+}
+
+.titulo-principal {
+    width: 284.56px;
+    height: 31px;
+    font-size: 24px;
+    color: #0000EE;
+    font-weight: 400;
+}
+
+.pesquisa {
+    background-color: #DB1E8C;
+    width: 184.72px;
+    height: 40px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    border-radius: 4px;
+}
+
+.pesquisa-input {
+    background-color: transparent;
+    width: 140px;
+    height: 16.12px;
+    padding: 4px;
+    border: none;
+}
+
+::placeholder {
+    color: #FF97D3;
+}
+
+.conteudo {
+    max-width: 1312px;
+    margin: 0 auto;
+    padding: 37px 16px 100px 16px;
+}
+
+.conteudo-trilhas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-bottom: 43px;
+}
+
+.conteudo-card {
+    width: 400px;
+    height: 445px;
+    border: 1px solid #F5F5F5;
+    border-radius: 4px;
+    background-color: #F5F5F5;
+    padding: 32px 40px 32px 32px;
+    align-content: space-between;
+}
+
+.conteudo-card:hover {
+    width: 400;
+    height: 445px;
+    box-shadow: 8px 8px 12px #000000;
+}
+
+.caixas-texto {
+    height: 339px;
+}
+
+.conteudo-card-titulo {
+    color: #364372;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.conteudo-card-texto {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+}
+
+.botao {
+    font-weight: 400;
+    font-size: 14px;
+    color: #264FEC;
+    background-color: transparent;
+    border: 1px solid #264FEC;
+    border-radius: 4px;
+    width: 139px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.botao:hover {
+    background-color: #33475B;
+    border: #33475B;
+    color: #FFFFFF;
+}
+
+.rodapé {
+    width: 100%;
+    margin: 0 auto;
+    height: 110px;
+    background-color: #FFFFFF;
+    display: flex;
+    padding: 0 16px;
+}
+
+.container-rodapé {
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-logos {
+    display: flex;
+    align-items: center;
+    padding-right: 155.36px;
+}
+
+.logo-boti {
+    padding-right: 26.5px;
+}
+
+.links {
+    display: flex;
+    gap: 59px;
+}
+
+.links-boti {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.link-desenvolve{
+    padding-bottom: 8.5px;
+}
+
+.link-desenvolve, .link-regulamento {
+    color: #000000;
+}
+
+.links-ícones-redes {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.links-redes {
+    display: flex;
+    gap: 30px;
+}
+
+.texto-grupo {
+    text-align: center;
+}
