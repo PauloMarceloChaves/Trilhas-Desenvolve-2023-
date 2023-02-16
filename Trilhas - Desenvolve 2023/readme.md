@@ -1,6 +1,4 @@
-<p align="center" gap="20px">
-    <img src="/Trilhas - Desenvolve 2023/assets/logo-grupo-boticario.png" alt="logo do Grupo Boticário">
-    <img src="/Trilhas - Desenvolve 2023/assets/alura.svg" alt="logo da Alura">
+<p align="center">
     <img src="/Trilhas - Desenvolve 2023/assets/logo-desenvolve-detalhata.jpg" alt="logo do Programa Desenvolve">
 </p>
 
