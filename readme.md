@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="/Trilhas - Desenvolve 2023/assets/logo-desenvolve-detalhata.jpg" alt="logo do Programa Desenvolve">
+    <img src="assets/logo-desenvolve-detalhata.jpg" alt="logo do Programa Desenvolve">
 </p>
 
 <br>
