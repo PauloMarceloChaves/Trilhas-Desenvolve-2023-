@@ -61,7 +61,9 @@
     }
 
     .titulo-principal {
-        font-size: 18px;
+        width: 270.56px;
+        height: 25px;
+        font-size: 20px;
         font-weight: 300;
         display: flex;
         justify-content: center;
