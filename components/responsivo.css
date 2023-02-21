@@ -53,10 +53,19 @@
         width: 400px;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     .cabeçalho-img {
         padding-right: 0;
+    }
+
+    .titulo-principal {
+        font-size: 18px;
+        font-weight: 300;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .pesquisa {
@@ -69,6 +78,10 @@
 
     .conteudo {
         max-width: 432px;
+    }
+
+    .conteudo-card-texto {
+        margin-top: 12px;
     }
 
     .rodapé {
@@ -89,5 +102,9 @@
 
     .logo-boti {
         padding-right: 36.38px;
+    }
+
+    .links-ícones-redes {
+        gap: 12px;
     }
 }
